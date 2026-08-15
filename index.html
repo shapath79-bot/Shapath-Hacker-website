@@ -1,1 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Shapath Hacker | Official Website</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #050505;
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0b0b0b;
+      padding: 18px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-bottom: 1px solid #222;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #00ff88;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      color: #00ff88;
+    }
+
+    .hero {
+      min-height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 30px 20px;
+      background:
+        radial-gradient(circle at top, #123d2c 0%, #050505 45%);
+    }
+
+    .hero h1 {
+      font-size: 55px;
+      margin-bottom: 15px;
+    }
+
+    .hero h1 span {
+      color: #00ff88;
+    }
+
+    .hero p {
+      color: #bbb;
+      max-width: 650px;
+      margin: auto;
+      font-size: 18px;
+    }
+
+    .buttons {
+      margin-top: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 13px 25px;
+      margin: 7px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .youtube {
+      background: #ff0000;
+      color: white;
+    }
+
+    .about-btn {
+      border: 1px solid #00ff88;
+      color: #00ff88;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      opacity: 0.85;
+    }
+
+    section {
+      padding: 70px 7%;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 35px;
+      margin-bottom: 40px;
+    }
+
+    .title span {
+      color: #00ff88;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #111;
+      padding: 30px;
+      border-radius: 15px;
+      text-align: center;
+      border: 1px solid #222;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-7px);
+      border-color: #00ff88;
+    }
+
+    .card h3 {
+      color: #00ff88;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #aaa;
+    }
+
+    .youtube-section {
+      background: #0a0a0a;
+      text-align: center;
+    }
+
+    .channel-box {
+      max-width: 700px;
+      margin: auto;
+      background: #111;
+      padding: 35px;
+      border-radius: 20px;
+      border: 1px solid #222;
+    }
+
+    .channel-box h3 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .channel-box p {
+      color: #aaa;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #020202;
+      color: #777;
+      border-top: 1px solid #222;
+    }
+
+    footer span {
+      color: #00ff88;
+    }
+
+    @media (max-width: 700px) {
+      header {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      nav a {
+        margin: 0 7px;
+      }
+
+      .hero h1 {
+        font-size: 38px;
+      }
+
+      .hero p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">SHAPATH HACKER</div>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#youtube">YouTube</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div>
+      <h1>Welcome to <span>Shapath Hacker</span></h1>
+
+      <p>
+        Welcome to the official website of Shapath Hacker.
+        Explore our YouTube channel, latest content and more.
+      </p>
+
+      <div class="buttons">
+        <a
+          class="btn youtube"
+          href="https://www.youtube.com/@shapathhacker89928"
+          target="_blank">
+          ▶ Visit YouTube Channel
+        </a>
+
+        <a class="btn about-btn" href="#about">
+          Learn More
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2 class="title">About <span>Shapath Hacker</span></h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>🎬 Videos</h3>
+        <p>
+          Watch the latest videos and content from
+          the Shapath Hacker YouTube channel.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🚀 Technology</h3>
+        <p>
+          Discover interesting technology and digital
+          content in one place.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>📺 YouTube</h3>
+        <p>
+          Visit the official YouTube channel and
+          stay connected with new uploads.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🌐 Community</h3>
+        <p>
+          Follow Shapath Hacker and become part of
+          the growing online community.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="youtube-section" id="youtube">
+
+    <h2 class="title">My <span>YouTube Channel</span></h2>
+
+    <div class="channel-box">
+
+      <h3>Shapath Hacker</h3>
+
+      <p>
+        Check out my official YouTube channel for
+        videos, updates and new content.
+      </p>
+
+      <a
+        class="btn youtube"
+        href="https://www.youtube.com/@shapathhacker89928"
+        target="_blank">
+        🔴 Subscribe on YouTube
+      </a>
+
+    </div>
+
+  </section>
+
+  <section id="contact">
+
+    <h2 class="title">Stay <span>Connected</span></h2>
+
+    <div class="channel-box">
+
+      <p>
+        Follow the official Shapath Hacker YouTube
+        channel for the latest updates.
+      </p>
+
+      <a
+        class="btn youtube"
+        href="https://www.youtube.com/@shapathhacker89928"
+        target="_blank">
+        YouTube
+      </a>
+
+    </div>
+
+  </section>
+
+  <footer>
+    © 2026 <span>Shapath Hacker</span> — All Rights Reserved.
+  </footer>
+
+</body>
+</html>
